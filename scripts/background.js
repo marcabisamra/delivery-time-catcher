@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(function() {
-  chrome.storage.sync.set({isEnabled: true}, function() {
+  chrome.storage.sync.set({ isEnabled: true }, function() {
     console.log("Extension enabled");
   });
 });
@@ -15,12 +15,14 @@ chrome.runtime.onMessage.addListener(
            iconUrl: '../assets/icon128.png',
            title: 'Time to check out!',
            message: 'Delivery times are now available'
-         }, function(notificationId) {
          });
        });
      });
-
-    } else if (request.foundDeliveryTimes === false) {
-     console.log('No times found')
+     chrome.tabs.update(sender.tab.id, { active: true }, function () {
+       console.log('Updated tab');
+     });
+     sendResponse(true);
+   } else if (request.foundDeliveryTimes === false) {
+     console.log('No times found');
    }
 });

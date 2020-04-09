@@ -1,5 +1,5 @@
-var toggleLabel = document.getElementById('toggle-label');
-var toggleInput = document.getElementById('toggle-input');
+const toggleLabel = document.getElementById('toggle-label');
+const toggleInput = document.getElementById('toggle-input');
 
 function toggleOn() {
   console.log('Toggle on');
@@ -23,7 +23,7 @@ function toggleOnClick () {
     }
     chrome.storage.sync.set({ isEnabled: newStateIsEnabled });
   });
-};
+}
 
 toggleInput.onclick = toggleOnClick;
 toggleLabel.onclick = toggleOnClick;

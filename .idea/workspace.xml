@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a227683-0508-4dc6-94d9-26982613d59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon128.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon48.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon48.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/content-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/content-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -65,7 +60,11 @@
       <workItem from="1586212233148" duration="9009000" />
       <workItem from="1586228312222" duration="2685000" />
       <workItem from="1586309153878" duration="2663000" />
-      <workItem from="1586396944962" duration="3172000" />
+      <workItem from="1586396944962" duration="4461000" />
+      <workItem from="1586442661744" duration="326000" />
+      <workItem from="1586449088463" duration="1150000" />
+      <workItem from="1586537765526" duration="2492000" />
+      <workItem from="1586603348467" duration="1966000" />
     </task>
     <servers />
   </component>
