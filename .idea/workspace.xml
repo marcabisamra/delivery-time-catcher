@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a227683-0508-4dc6-94d9-26982613d59a" name="Default Changelist" comment="" />
+    <list default="true" id="2a227683-0508-4dc6-94d9-26982613d59a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon128.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon48.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/content-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/content-scripts.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a8ELGFeGrz3qHkESlg7ylcr3fV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -16,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -47,7 +62,10 @@
       <workItem from="1586207820135" duration="2377000" />
       <workItem from="1586210795173" duration="543000" />
       <workItem from="1586212004525" duration="218000" />
-      <workItem from="1586212233148" duration="8813000" />
+      <workItem from="1586212233148" duration="9009000" />
+      <workItem from="1586228312222" duration="2685000" />
+      <workItem from="1586309153878" duration="2663000" />
+      <workItem from="1586396944962" duration="3172000" />
     </task>
     <servers />
   </component>
