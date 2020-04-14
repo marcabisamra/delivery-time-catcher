@@ -46,7 +46,7 @@ function foundTimesAction() {
   const audioElt = document.createElement('audio');
   audioElt.src = SONG_URL;
   audioElt.onloadedmetadata = function () {
-    chrome.runtime.sendMessage({ foundDeliveryTimes: true }, () => {
+    chrome.runtime.sendMessage({ foundDeliveryTimes: true }, function ()  {
       audioElt.play();
     });
   };

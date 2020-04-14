@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/content-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/content-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +20,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -64,12 +64,18 @@
       <workItem from="1586442661744" duration="326000" />
       <workItem from="1586449088463" duration="1150000" />
       <workItem from="1586537765526" duration="2492000" />
-      <workItem from="1586603348467" duration="1966000" />
+      <workItem from="1586603348467" duration="2180000" />
+      <workItem from="1586611368963" duration="571000" />
+      <workItem from="1586721134825" duration="29000" />
+      <workItem from="1586787042497" duration="505000" />
+      <workItem from="1586873126508" duration="514000" />
+      <workItem from="1586873684117" duration="20000" />
+      <workItem from="1586873755598" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="-923" key="#File_Watchers" timestamp="1586209559164">
