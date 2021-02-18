@@ -1,8 +1,10 @@
 const INSTACART_PATH = "/store/checkout_v3";
 const INSTACART_ELT_NAME = "delivery_option";
 const PRIMENOW_ELT_NAME = "delivery-window-radio";
+const TURBO_VAX_PATH = "/";
+const TURBO_VAX_ELT_NAME = "a.MuiButton-containedPrimary:not(.Mui-disabled)";
 const PRIMENOW_PATH = "/checkout/enter-checkout";
-const CHECK_TIMES_INTERVAL = 12000;
+const CHECK_TIMES_INTERVAL = 2000;
 let foundDeliveryTimes = false;
 let checkForTimesInterval;
 
@@ -16,16 +18,23 @@ window.addEventListener('load', function () {
 });
 
 function checkForTimes() {
-  if (foundDeliveryTimes ) return;
+  if (foundDeliveryTimes) return;
   if (window.location.pathname === INSTACART_PATH) {
     checkForTimeslotElts(INSTACART_ELT_NAME);
   } else if (window.location.pathname === PRIMENOW_PATH) {
     checkForTimeslotElts(PRIMENOW_ELT_NAME);
+  }else if (window.location.pathname === TURBO_VAX_PATH) {
+    checkForTimeslotElts(TURBO_VAX_ELT_NAME, true);
   }
 }
 
-function checkForTimeslotElts(eltName) {
-  const deliveryOpts = document.getElementsByName(eltName);
+function checkForTimeslotElts(eltName, shouldUseQuerySelector) {
+  let deliveryOpts
+  if (shouldUseQuerySelector) {
+    deliveryOpts = document.querySelectorAll(eltName);
+  } else {
+    deliveryOpts = document.getElementsByName(eltName);
+  }
   if (deliveryOpts.length > 0) {
     foundTimesAction();
   } else {
@@ -38,15 +47,11 @@ function didntFindTimesAction() {
   window.location.reload();
 }
 
+
+
 function foundTimesAction() {
   foundDeliveryTimes = true;
   window.clearInterval(checkForTimes);
   checkForTimesInterval = null;
-  const audioElt = document.createElement('audio');
-  audioElt.src = chrome.runtime.getURL('/assets/Fairuz - El Bent El Shalabiah.mp3');
-  audioElt.onloadedmetadata = function () {
-    chrome.runtime.sendMessage({ foundDeliveryTimes: true }, function ()  {
-      audioElt.play();
-    });
-  };
+  chrome.runtime.sendMessage({ foundDeliveryTimes: true });
 }

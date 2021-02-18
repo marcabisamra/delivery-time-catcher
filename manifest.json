@@ -1,6 +1,6 @@
 {
   "name": "Delivery Time Catcher",
-  "version": "1.3.25",
+  "version": "1.3.26",
   "description": "Refreshes checkout pages and alerts you when delivery times are available! Works with Prime Now, InstaCart, Costco Same-Day Delivery",
   "permissions": [
     "activeTab",
@@ -9,7 +9,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://instacart.com/*", "https://www.instacart.com/*", "https://sameday.costco.com/*", "https://www.sameday.costco.com/*", "https://primenow.amazon.com/*","https://www.primenow.amazon.com/*"],
+      "matches": ["https://instacart.com/*", "https://www.instacart.com/*", "https://sameday.costco.com/*", "https://www.sameday.costco.com/*", "https://primenow.amazon.com/*","https://www.primenow.amazon.com/*","https://www.turbovax.info/", "https://www.turbovax.info/*", "https://turbovax.info/*"],
       "js": ["scripts/content-scripts.js"]
     }
   ],

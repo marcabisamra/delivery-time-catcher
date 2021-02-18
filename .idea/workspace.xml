@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a227683-0508-4dc6-94d9-26982613d59a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/content-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/content-scripts.js" afterDir="false" />
     </list>
@@ -24,12 +24,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -39,6 +41,7 @@
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,12 +77,17 @@
       <workItem from="1586873755598" duration="788000" />
       <workItem from="1586973750859" duration="36000" />
       <workItem from="1586973918790" duration="271000" />
-      <workItem from="1586981974740" duration="1903000" />
+      <workItem from="1586981974740" duration="2389000" />
+      <workItem from="1587915371990" duration="732000" />
+      <workItem from="1588277539704" duration="562000" />
+      <workItem from="1613427296860" duration="4342000" />
+      <workItem from="1613513022487" duration="2537000" />
+      <workItem from="1613662944190" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="-923" key="#File_Watchers" timestamp="1586209559164">
@@ -95,5 +103,9 @@
     </state>
     <state x="343" y="-1024" key="SettingsEditor/-126.-1177.1920.1177/0.23.1680.957@-126.-1177.1920.1177" timestamp="1586209551381" />
     <state x="336" y="-920" key="SettingsEditor/-133.-1057.1920.1057/0.23.1680.961@-133.-1057.1920.1057" timestamp="1586110271420" />
+    <state x="541" y="241" width="598" height="518" key="find.popup" timestamp="1587921740900">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="541" y="241" width="598" height="518" key="find.popup/0.23.1680.955@0.23.1680.955" timestamp="1587921740900" />
   </component>
 </project>
